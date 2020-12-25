@@ -1,0 +1,43 @@
+html, body{
+    margin:0;
+    padding:0;
+    background-color: lightsteelblue;
+}
+
+.box{
+    /* box size */
+    height:150px;
+    width:350px;
+
+    /* border */
+    border:1.5px solid black;
+
+    /*overflow: auto;*/
+
+    /* box color */
+    background-color: peachpuff;
+
+    /* position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#p1{
+    text-align:center;
+}
+#p2{
+    text-align:center;
+    color:firebrick;
+}
+
+/* button position */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:15px;
+    left:50%;
+    right:50%;
+}
